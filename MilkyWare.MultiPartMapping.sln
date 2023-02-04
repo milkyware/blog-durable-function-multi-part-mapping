@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A7EF179-A9E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilkyWare.MultiPartMapping", "src\MilkyWare.MultiPartMapping\MilkyWare.MultiPartMapping.csproj", "{BD76C836-F09D-4DD7-8EE8-C38E513AC218}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0C4D45C5-4C96-46A2-87C4-BCDC5CB4CC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilkyWare.MultiPartMapping.Tests", "tests\MilkyWare.MultiPartMapping.Tests\MilkyWare.MultiPartMapping.Tests.csproj", "{EBC4BD4D-AAEB-4608-A69C-A2559342CBF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{BD76C836-F09D-4DD7-8EE8-C38E513AC218}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD76C836-F09D-4DD7-8EE8-C38E513AC218}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD76C836-F09D-4DD7-8EE8-C38E513AC218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC4BD4D-AAEB-4608-A69C-A2559342CBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC4BD4D-AAEB-4608-A69C-A2559342CBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC4BD4D-AAEB-4608-A69C-A2559342CBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC4BD4D-AAEB-4608-A69C-A2559342CBF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BD76C836-F09D-4DD7-8EE8-C38E513AC218} = {9A7EF179-A9E8-4733-8CDB-55E94BA9648C}
+		{EBC4BD4D-AAEB-4608-A69C-A2559342CBF9} = {0C4D45C5-4C96-46A2-87C4-BCDC5CB4CC63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B03413E-CD81-44B9-B8DC-6C02CE36F1D3}
